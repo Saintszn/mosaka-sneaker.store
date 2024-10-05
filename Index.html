@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MOSAKA SNEAKERS</title>
+    <link rel="stylesheet" href="Sneakers.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#about us">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <section id="home" class="home-page">
+        <h1>MOSAKA SNEAKERS</h1>
+        <p class="description">Step into the world of Mosaka Sneakers, where style meets comfort in every step. Discover our curated collection of top-notch sneakers designed to elevate your look and keep you moving with confidence.</p>
+        <button onclick="window.location.href='#collection'">Shop Sneakers</button>
+    </section>
+
+    <!-- Collection Page -->
+    <section id="collection" class="collection-page">
+        <h2>Our Collection</h2>
+        <div class="sneaker-grid">
+            <!-- Example Sneaker -->
+            <div class="sneaker-item">
+                <img src="C:\Users\HP\OneDrive\Desktop\Sneakers\Sneaker 1 .jpeg" alt="Sneaker 1">
+                <h3>Addidas</h3>
+                <p>Price: Ksh2800</p>
+                <p>Available Sizes: 42,43,44,45</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('C:\Users\HP\OneDrive\Desktop\Sneakers\Sneaker 1 .jpeg', 'Addidas', 'Ksh2800')">Purchase</button>
+            </div>
+            <div class="sneaker-item">
+                <img src="C:/Users/HP/OneDrive/Desktop/Sneakers/Sneaker 2.jpeg" alt="Sneaker 2">
+                <h3>Bapestar</h3>
+                <p>Price: Ksh2800</p>
+                <p>Available Sizes: 42,43,44,45</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('Sneaker 2.jpeg', 'Bapestar', 'Ksh2800')">Purchase</button>
+            </div>
+            <div class="sneaker-item">
+                <img src="C:/Users/HP/OneDrive/Desktop/Sneakers/Sneaker 3 .jpeg" alt="Sneaker 3">
+                <h3>Nike Trainers</h3>
+                <p>Price: Ksh2300</p>
+                <p>Available Sizes: 36,37,38,39,40</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('Sneaker 3 .jpeg', 'Nike Trainers', '$100')">Purchase</button>
+            </div>
+            <div class="sneaker-item">
+                <img src="C:/Users/HP/OneDrive/Desktop/Sneakers/Sneaker 4 .jpeg" alt="Sneaker 4"> alt="Sneaker 1">
+                <h3>Airforce (Louis vitton)</h3>
+                <p>Price: Ksh2850</p>
+                <p>Available Sizes: 36,37,38,39,40</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('Sneaker 4 .jpeg', 'Airforce (Louis vitton)', 'Ksh2850')">Purchase</button>
+            </div>
+            <div class="sneaker-item">
+                <img src="C:/Users/HP/OneDrive/Desktop/Sneakers/Sneaker 5 .jpeg" alt="Sneaker 5">
+                <h3>Airforce (Fly Emirates)</h3>
+                <p>Price: Ksh2850</p>
+                <p>Available Sizes: 36,37,38,39,40</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('Sneaker 5 .jpeg', 'Sneaker 1', 'Ksh2850')">Purchase</button>
+            </div>
+            <div class="sneaker-item">
+                <img src="C:/Users/HP/OneDrive/Desktop/Sneakers/Sneaker 6 .jpeg" alt="Sneaker 6">
+                <h3>Airforce (Custom)</h3>
+                <p>Price: Ksh2850</p>
+                <p>Available Sizes: 36,37,38,39,40</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('Sneaker 6 .jpeg', 'Airforce (Custom)', 'Ksh2850')">Purchase</button>
+            </div>
+            <div class="sneaker-item">
+                <img src="C:/Users/HP/OneDrive/Desktop/Sneakers/Sneaker 7 .jpeg" alt="Sneaker 7">
+                <h3>Airforce (Pink)</h3>
+                <p>Price: Ksh2850</p>
+                <p>Available Sizes: 36,37,38,39,40</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('Sneaker 7 .jpeg', 'Airforce (Pink)', 'Ksh2850')">Purchase</button>
+            </div>
+            <div class="sneaker-item">
+                <img src="C:/Users/HP/OneDrive/Desktop/Sneakers/Sneaker 8 .jpeg" alt="Sneaker 8">
+                <h3>Airforce (Pink)</h3>
+                <p>Price: Ksh2850</p>
+                <p>Available Sizes: 36,37,38,39,40</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('Sneaker 8 .jpeg', 'Airforce (Pink)', 'Ksh2850')">Purchase</button>
+            </div>
+            <div class="sneaker-item">
+                <img src="C:/Users/HP/OneDrive/Desktop/Sneakers/Sneaker 9 .jpeg" alt="Sneaker 9">
+                <h3>Clarks</h3>
+                <p>Price: Ksh2300</p>
+                <p>Available Sizes: 40,41,42,43,44</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('Sneaker 9 .jpeg', 'Clarks', 'Ksh2300')">Purchase</button>
+            </div>
+            <div class="sneaker-item">
+                <img src="C:/Users/HP/OneDrive/Desktop/Sneakers/Sneaker 10 .jpeg" alt="Sneaker 10">
+                <h3>Jordan 6 Retro</h3>
+                <p>Price: Ksh3200</p>
+                <p>Available Sizes: 40,41,42,43,44</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('Sneaker 10 .jpeg', 'Jordan 6 Retro', 'Ksh3200')">Purchase</button>
+            </div>
+            <div class="sneaker-item">
+                <img src="C:/Users/HP/OneDrive/Desktop/Sneakers/Sneaker 11 .jpeg" alt="Sneaker 11">
+                <h3>Airforce (White plain)</h3>
+                <p>Price: Ksh3500</p>
+                <p>Available Sizes: 40,41</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('Sneaker 11 .jpeg', 'Airforce (White plain)', 'Ksh3500')">Purchase</button>
+            </div>
+            <div class="sneaker-item">
+                <img src="C:/Users/HP/OneDrive/Desktop/Sneakers/Sneaker 12 .jpeg" alt="Sneaker 12">
+                <h3>Nike official</h3>
+                <p>Price: Ksh2300</p>
+                <p>Available Sizes: 36,37,38</p>
+                <button class="purchase-btn" onclick="openPurchaseForm('Sneaker 12 .jpeg', 'Nike official', 'Ksh2300')">Purchase</button>
+            </div>
+            <!-- Repeat for other sneakers -->
+        </div>
+    </section>
+
+    <!-- Purchase Form Popup -->
+    <div id="purchaseForm" class="popup-form">
+        <div class="form-content">
+            <span class="close-btn" onclick="closePurchaseForm()">&times;</span>
+            <img id="formImage" src="" alt="Selected Sneaker">
+            <h3 id="formTitle"></h3>
+            <p id="formPrice"></p>
+            <p>Available Sizes: 6, 7, 8</p>
+            <p>Please call this number before making any transactions (0110419577). If payment is by cash, call or text this number (0110419577) in order to organize meetups.</p>
+        </div>
+    </div>
+
+    <!-- About Us Page -->
+    <section id="about" class="about-page">
+        <h2>About Us</h2>
+        <p>Welcome to Mosaka Sneakers! Find us at Ronald Ngala Street, Tuskys Magic business, wing B, first floor, shop Bm39, Nairobi, Kenya, where sneaker enthusiasts, casual shoppers, and collectors can explore our wide range of top-quality sneakers. Our store is open Monday to Saturday from 9am to 6pm EAT. For any inquiries, feel free to reach out to us via phone at +254-123-456-789 or email us at info@mosakasneakers.com.</p>
+    </section>
+
+    <script>
+        function openPurchaseForm(image, title, price) {
+            document.getElementById('formImage').src = image;
+            document.getElementById('formTitle').innerText = title;
+            document.getElementById('formPrice').innerText = price;
+            document.getElementById('purchaseForm').style.display = 'block';
+        }
+
+        function closePurchaseForm() {
+            document.getElementById('purchaseForm').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
